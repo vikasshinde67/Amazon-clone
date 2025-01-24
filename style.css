@@ -1,0 +1,1203 @@
+*{
+     margin: 0;
+     border:border-box;
+     font-family:Arial ;
+}
+
+/*first-box*/
+
+.navbar{
+     height: 60px;
+     width: 1291px;
+     background-color: #151a1a;
+     color: antiquewhite;
+     display: flex;
+     position: sticky;
+     justify-content: space-evenly;
+     align-items: center;
+}
+.navlogo{
+    height: 52px;
+    width: 130px;
+}
+.logo{
+     background-image:url("image/cjzz0x24.jpeg");
+     background-size:cover;
+     height: 52px;
+     width: 130px;
+}
+
+/*second-box **/
+
+.first-add{
+     font-size: 0.3ren;
+     color: #cccccc;
+     margin-left: 14px;
+}
+.second-add{
+     font-size:1rem ;
+     margin-left: 3px;
+
+}
+.add-icon{
+     display: flex;
+     align-items: center;
+     margin-right: 3px;
+}
+
+/*thrid-box*/
+
+.nav-search{
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgba(218, 145, 9, 0.856);
+     width: 620px;
+     height: 45px;
+     border-radius: 4px;
+}
+.search-icon:hover{
+     background-color:  rgb(252, 178, 42);
+     border-radius: 4px;
+}
+.search-select{
+     background-color: #f3f3f3;
+     width: 45px;
+     border: none;
+     border-top-left-radius: 4px;
+     border-bottom-left-radius:4px ;
+}
+
+/* hover*/
+.nav-search select:hover{
+     background-color: #e0e0e0;
+}
+
+.search-input{
+     width: 100%;
+     font-size: 1rem;
+     border: none;
+}
+.search-icon{
+     width: 45px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     color: #0f1111;
+
+}
+
+/*  box 4 & 5*/
+span{
+     font-size: 0.8rem;
+
+}
+.nav-secomd{
+     font-size: 0.85rem;
+     font-weight:700;
+}
+
+/* box 6 */
+.nav-cart i{
+     font-size: 28px;
+}
+
+.nav-cart cart{
+     font-size: 0.85;
+     font-weight: 700;
+}
+
+
+/* panel*/
+.panel{
+     height:38px;
+     width: 1291px;
+     background-color:#222f3d;
+     display: flex;
+     color: white;
+     align-items: center;
+     justify-content:start;
+}
+
+.border{
+     border: 1.4px solid transparent;
+}
+.border:hover{
+     border: 1.4px solid white;
+}
+
+.panel-all-icon{
+     display: flex;
+     width: 100px;
+     align-items: center;
+}
+
+.panel i{
+     margin-right: 10px;
+     margin-left: 16px;
+     font-size: 1.2rem;
+
+}
+
+.all-function{
+     font-size: 1.2rem;
+     font-family:initial;
+     font-weight:bold;
+}
+
+/* panel-ops*/
+.panel-ops{
+     width: 90%;
+     font-size: 0.85rem;
+}
+
+.panel-ops p{
+border: 1.4px solid transparent;
+
+}
+
+.panel-ops p:hover{
+     border: 1.4px solid white;
+}
+.panel-ops p{
+     width: 60px;
+     display: inline;
+     margin-left:20px ;
+}
+
+/* hero sec*/
+.hero-sec{
+     height:300px;
+     width: 1291px;
+     background-image: url("image/hero\ sec\ image.jpg");
+     background-size: cover;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+}
+
+
+/* first row shope sec*/
+.shope-section-first-row{
+     height: 460px;
+     width: 1291px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(175, 210, 223);
+     
+}
+
+.first-row-box{
+     height: 440px;
+     width: 300px;
+     background-color:#ffff;
+     display: flex;
+     flex-wrap: wrap;
+     align-content: space-evenly;
+}
+
+.first-row-box1-heder{
+     position: relative;
+     margin-left: 15px;
+     margin-top: 10px;
+}
+
+.first-row-box1-content{
+     height: 110px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-content:space-evenly ;
+     position: relative;
+     margin-bottom:1px;
+
+}
+
+.first-row-box1-all-content{
+     height:330px;
+     width: 300px;
+     display: flex;
+     flex-wrap: wrap;
+     
+     
+}
+.first-row-box-img{
+     height: 110px;
+     width: 120px;
+     position: relative;
+     margin: left 100px; 
+     
+}
+.first-row-box1-more-offer{
+     display: inline;
+     position: relative;
+     margin-left: 24px;
+     margin-bottom:5px ;
+     color: blue;
+}
+
+
+/* row 1st  img section*/
+
+/* box1 section*/
+
+.first-row-box1-1st-img{
+     background-image: url("image/D197369543_PC_QC_1_1x._SY116_CB552828090_.jpg");
+     background-size: cover;
+}
+
+.first-row-box1-2nd-img{
+     background-image: url("image/D197369543_PC_QC_4_1x._SY116_CB552828090_.jpg");
+     background-size: cover;
+}
+
+/* box2 section*/
+
+.first-row-box2-1st-img{
+     background-image: url("image/HomeDecor-img.jpg");
+     background-size: cover;
+     
+}
+
+.first-row-box2-2nd-img{
+     background-image: url("image/HomeStorage-ing.jpg");
+     background-size: cover;
+}
+
+/* box 3 section*/
+
+.first-row-box3-1st-img{
+     background-image: url("image/PC_QuadCard_Noise_0.5x._SY116_CB553870684_.jpg");
+     background-size: cover;
+}
+
+.first-row-box3-2nd-img{
+     background-image: url("image/PC_QuadCard_Zeb_0.5x_1._SY116_CB570220221_.jpg");
+     background-size: cover;
+}
+
+/* box 4 section*/
+
+.first-row-box4-1st-img{
+     background-image: url("image/186x116---wm._SY116_CB667322346_\ washing\ mashines.jpg");
+     background-size: cover;
+}
+
+.first-row-box4-2nd-img{
+     background-image: url("image/Appliances-QC-PC-186x116--B08345R1ZW._SY116_CB667322346_\ referejeter.jpg");
+     background-size: cover;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/* first row second colom shope section*/
+
+.first-row-second-colum-box1-content{
+     height: 110px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-content:space-evenly ;
+}
+.first-row-second-colum-box-img{
+     height: 110px;
+     width: 120px;
+     position: relative;
+     margin: left 100px; 
+}
+
+/*2nd row img section*/
+
+/*  box1 section */
+
+.first-row-second-colum-box1-1st-img{
+     background-image: url("image/controal\ gamimg\ 41jAkaG5k0L.AC_SX250.jpg");
+     background-size: cover;
+}
+
+.first-row-second-colum-box1-2nd-img{
+     background-image: url("image/D197369543_PC_QC_2_1x._SY116_CB552828090_.jpg");
+     background-size: cover;
+}
+
+/* box 2 section */
+
+.first-row-second-colum-box2-1st-img{
+     background-image: url("image/CleaningTool\ img.jpg");
+     background-size: cover;
+}
+
+.first-row-second-colum-box2-2nd-img{
+     background-image: url("image/Bedding-img.jpg");
+     background-size: cover;
+}
+
+/* box 3 section */
+
+.first-row-second-colum-box3-1st-img{
+     background-image: url("image/PC_QuadCard_boAt_0.5x._SY116_CB553870684_.jpg");
+     background-size: cover;
+}
+
+.first-row-second-colum-box3-2nd-img{
+     background-image: url("image/PC_QuadCard_Boult_0.5x._SY116_CB553870684_.jpg");
+     background-size: contain;
+}
+
+/* box 4 section*/
+
+.first-row-second-colum-box4-1st-img{
+     background-image: url("image/Appliances-QC-PC-186x116--B08RDL6H79._SY116_CB667322346_\ air\ condication.jpg");
+     background-size: cover;
+}
+
+.first-row-second-colum-box4-2nd-img{
+     background-image: url("image/Appliances-QC-PC-186x116--B07G5J5FYP._SY116_CB667322346_.jpg");
+     background-size: cover;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+
+/*shope-section-second-row*/
+
+
+.second-row-shope-section-main{
+     height: 319px;
+     width: 1291px;
+     background-color: #b8d7e2;
+}
+
+.shope-section-second-row{
+
+     height: 300px;
+     width: 1203;
+     background-color: white;
+     position: relative;
+     margin-left: 17px;
+     margin-right: 15px;
+}
+
+.shope-section-second-row h2{
+     height: 35px;
+     display: flex;
+     align-items: end;
+     position: relative;
+     margin-left: 19px;
+}
+
+.second-row-shope-section-ul{
+     height: 260px;
+     width: 1270px;
+     
+     display: flex;
+     justify-content: center;
+     position: relative;
+     margin:4px;
+     padding:0 ;
+}
+
+.second-row-shope-section-li{
+     height: 220px;
+     width: 400px;
+     position: relative;
+     margin: 13px;
+     list-style: none;
+}
+
+/* li img section */
+
+.second-row-shope-section-li-img1{
+     background-image: url("image/tablet\ 61gVQJ5Yy0L._AC_SY200_.jpg");
+     background-size: contain;
+     width: 315px;
+}
+
+.second-row-shope-section-li-img2{
+     background-image: url("image/laptop\ bag\ 1s4wKEliIL._AC_SY200_.jpg");
+     background-size: cover;
+     width: 230px;
+}
+
+.second-row-shope-section-li-img3{
+     background-image: url("image/pandrive\ 51BeNmt+QoL._AC_SY200_.jpg");
+     background-size: cover;
+     height: 180px;
+}
+
+.second-row-shope-section-li-img4{
+     background-image: url("image/usb\ type\ c\ cable\ 1MhtZF5NWL._AC_SY200_.jpg");
+     background-size: contain;
+     width: 208px;
+     height: 200px;
+}
+
+/* ------------------------------------------------*/
+
+/*  3 thrd row shope section */
+
+.third-row-shope-section-main{
+     height: 340px;
+     width: 1291px;
+     background-color: #bdd3db;
+     display: flex;
+     justify-content: center; 
+}
+
+.shope-section-third-row{
+     height: 320px;
+     width: 1250px;
+     background-color: white; 
+}
+
+.shope-section-third-row h2{
+     height: 45px;
+     display: flex;
+     align-items: center;
+     position: relative;
+     margin-left: 20px;
+}
+
+.third-row-shope-section-ul{
+     height: 254px;
+     width: 1235px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     position: relative;
+     padding: 0;
+     margin-left: 9px;  
+}
+
+.third-row-shope-section-li{
+     height: 240px;
+     width: 230px;
+     list-style: none;
+     position: relative;
+     margin-right: px;
+}
+
+/* img section*/
+
+.third-row-shope-section-li-img1{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 4.jpg");
+     background-size: cover;
+}
+
+.third-row-shope-section-li-img2{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 1.jpg");
+     background-size: cover;
+}
+
+.third-row-shope-section-li-img3{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 2.jpg");
+     background-size: cover;
+}
+
+.third-row-shope-section-li-img4{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 3.jpg");
+     background-size: cover;
+}
+
+.third-row-shope-section-li-img5{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 5.jpg");
+     background-size: cover;
+}
+
+/*----------------------------------------------------*/
+
+/* fourt row shope sec*/
+
+.shope-section-fourt-row{
+     height: 445px;
+     width: 1291px;
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(195, 207, 211);
+     
+}
+
+.fourt-row-box{
+     height: 425px;
+     width: 300px;
+     background-color: rgb(241, 248, 255);
+     display: flex;
+     flex-wrap: wrap;
+     align-content:  end;
+}
+
+.fourt-row-box1-heder{
+     height: 30pxpx;
+     display: flex;
+     align-content:start ;
+     position: relative;
+     margin-left: 10px;
+     margin-top: 30px;
+     margin-bottom: 23px;
+}
+
+.fourt-row-box1-content{
+     height: 110px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-content:space-evenly ;
+     position: relative;
+     margin-bottom:1px;
+
+}
+
+.fourt-row-box1-all-content{
+     height:330px;
+     width: 300px;
+     display: flex;
+     flex-wrap: wrap;
+     
+     
+}
+.fourt-row-box-img{
+     height: 110px;
+     width: 120px;
+     position: relative;
+     margin: left 100px; 
+     
+}
+
+
+/* row 1st  img section*/
+
+/* box1 section*/
+
+.fourt-row-box1-1st-img{
+     background-image: url("image/Wall\ hangings\ crafted1.jpg");
+     background-size: cover;
+}
+
+.fourt-row-box1-2nd-img{
+     background-image: url("image/Wall\ hangings\ crafted2.jpg");
+     background-size: cover;
+}
+
+/* box2 section*/
+
+.fourt-row-box2-1st-img{
+     background-image: url("image/cookware\ &\ kitchen\ 1.jpg");
+     background-size: contain;
+     height: 94px;
+    
+}
+
+.fourt-row-box2-2nd-img{
+     background-image: url("image/cookware\ &\ kitchen2.jpg");
+     background-size: contain;
+     height: 75px;
+     
+}
+
+/* box 3 section*/
+
+.fourt-row-box3-1st-img{
+     background-image: url("image/toy\ &\ game1.jpg");
+     background-size: contain;
+     width: 109px;
+}
+
+.fourt-row-box3-2nd-img{
+     background-image: url("image/toy\ &\ game2.jpg");
+     background-size: cover;
+     width: 139px;
+}
+
+/* box 4 section*/
+
+.fourt-row-box4-1st-img{
+     background-image: url("image/Home\ essentials\ curated1.jpg");
+     background-size: cover;
+}
+
+.fourt-row-box4-2nd-img{
+     background-image: url("image/Home\ essentials\ curated2.jpg");
+     background-size: cover;
+}
+
+
+/*----------------------------------------------------------------------*/
+
+/* first row second colom shope section*/
+
+.fourt-row-second-colum-box1-content{
+     height: 110px;
+     width: 300px;
+     display: flex;
+     justify-content: center;
+     justify-content: space-evenly;
+     align-content:space-evenly ;
+}
+
+
+.fourt-row-second-colum-box-img{
+     height: 110px;
+     width: 120px;
+     position: relative;
+     margin: left 100px; 
+}
+
+/*2nd row img section*/
+
+/*  box1 section */
+
+.fourt-row-second-colum-box1-1st-img{
+     background-image: url("image/Wall\ hangings\ crafted3.jpg");
+     background-size: cover;
+}
+
+.fourt-row-second-colum-box1-2nd-img{
+     background-image: url("image/Wall\ hangings\ crafted4.jpg");
+     background-size: cover;
+}
+
+/* box 2 section */
+
+.fourt-row-second-colum-box2-1st-img{
+     background-image: url("image/cookware\ &\ kitchen3.jpg");
+     background-size: contain;
+     height: 75px;
+}
+
+.fourt-row-second-colum-box2-2nd-img{  
+     background-image: url("image/cookware\ &\ kitchen4.jpg");
+     background-size: contain;
+}
+
+/* box 3 section */
+
+.fourt-row-second-colum-box3-1st-img{
+     background-image: url("image/toy\ &\ game3.jpg");
+     background-size: contain;
+     height: 108px;
+}
+
+.fourt-row-second-colum-box3-2nd-img{
+     background-image: url("image/toy\ &\ game4.jpg");
+     background-size: contain;
+     width: 117px;
+}
+
+/* box 4 section*/
+
+.fourt-row-second-colum-box4-1st-img{
+     background-image: url("image/Home\ &\ kitchen\ essentials\ 3.jpg");
+     background-size: cover;
+}
+
+.fourt-row-second-colum-box4-2nd-img{
+     background-image: url("image/Home\ essentials\ curated4.jpg");
+     background-size: cover;
+}
+
+
+/*--------------------------------------------------------------------*/
+
+/* fift row shope section */
+
+.fift-row-shope-section-main{
+     height: 340px;
+     width: 1291px;
+     background-color: #ccd9dd;
+     display: flex;
+     justify-content: center; 
+}
+
+.shope-section-fift-row{
+     height: 320px;
+     width: 1250px;
+     background-color: white; 
+}
+
+.shope-section-fift-row h2{
+     height: 45px;
+     display: flex;
+     align-items: center;
+     position: relative;
+     margin-left: 20px;
+}
+
+.fift-row-shope-section-ul{
+     height: 254px;
+     width: 1235px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     position: relative;
+     padding: 0;
+     margin-left: 9px;  
+}
+
+.fift-row-shope-section-li{
+     height: 240px;
+     width: 230px;
+     list-style: none;
+     position: relative;
+     margin-right: px;
+}
+
+/*------------------------------------------*/
+
+/* li img section */
+
+.fift-row-shope-section-li-img1{
+     background-image: url("image/Car\ &\ bike\ accessories.jpg");
+     background-size: contain;
+     width: 123px;
+}
+
+.fift-row-shope-section-li-img2{
+     background-image: url("image/Car\ &\ bike\ accessories2.jpg");
+     background-size: cover;
+     width: 299px;
+}
+
+.fift-row-shope-section-li-img3{
+     background-image: url("image/Car\ &\ bike\ accessories3.jpg");
+     background-size: cover;
+     height: 230px;
+}
+
+.fift-row-shope-section-li-img4{
+     background-image: url("image/Car\ &\ bike\ accessories4.jpg");
+     background-size: contain;
+     width: 230px;
+     height: 180px;
+}
+
+.fift-row-shope-section-li-img5{
+     background-image: url("image/Car\ &\ bike\ accessories5.jpg");
+     background-size: contain;
+     width: 208px;
+     height: 280px;
+}
+
+/*------------------------------------------*/
+
+/* sixt row shope section*/
+
+.sixt-row-shop-section-main{
+     height: 843px;
+     width: 1291px;
+     display:flex ;
+     justify-content: start;
+     align-items: start;
+     position: relative;
+     margin-top: 4px;
+     
+     
+}
+
+.shope-section-border-of-sixt-row{
+     height: 800px;
+     width: 1289px;
+     display: flex;
+     justify-content: center;
+     
+     position: relative;
+     margin-top: 25px;
+     border: 1px solid rgb(233, 233, 233)
+}
+
+.shope-section-sixt-row{
+     height: 600px;
+     width: 1259px;
+     position: relative;
+     margin-top: 10px;
+     
+}
+
+.shope-section-sixt-row-img-content-all{
+     height: 600px;
+     width: 1250px;
+     display: flex;
+     justify-content: space-evenly;
+     position: relative;
+     margin-top: 20px;
+}
+
+.sixt-row-shope-section-img-content{
+     height: 530px;
+     width: 280px;
+}
+
+.sixt-row-shope-section-img{
+     height: 220px;
+     width: 270px;
+     position: relative;
+     margin-bottom: 19px;
+}
+
+/* hover */
+
+.sixt-row-shope-section-img-content a:hover{
+     text-decoration: underline;
+}
+
+/* img section */
+
+.sixt-row-shope-section-img1{
+     background-image:url("image/Inspired\ by\ your\ browsing\ history1.jpg") ;
+     background-size: contain;
+     width: 220px;
+}
+.img-content-box1{
+     width: 222px;
+}
+
+.sixt-row-shope-section-img2{
+     background-image:url("image/Inspired\ by\ your\ browsing\ history2.jpg") ;
+     background-size: contain;
+     height: 230px;
+     width: 230px;
+}
+.img-content-box2{
+     width: 232px;
+}
+
+.sixt-row-shope-section-img3{
+     background-image:url("image/Inspired\ by\ your\ browsing\ history3.jpg") ;
+     background-size: contain;
+     width: 286px;
+}
+.img-content-box3{
+     width: 288px;
+}
+
+.sixt-row-shope-section-img4{
+     background-image:url("image/Inspired\ by\ your\ browsing\ history4.jpg") ;
+     background-size: contain;
+     width: 221px;
+}
+
+.img-content-box4{
+     width: 223px;
+}
+
+.sixt-row-shope-section-img5{
+     background-image:url("image/Inspired\ by\ your\ browsing\ history5.jpg") ;
+     background-size: contain;
+     width: 209px;
+}
+
+.img-content-box5{
+     width: 211px;
+}
+
+/*-----------------------------------------*/
+
+/* prouuct detical */
+
+.sixt-row-shope-section-img-content div a {
+     font-size: 0.99rem;
+     font-weight: 545;
+     
+     align-items: center;
+     line-height: 22px;
+     color: #2162a1;
+}
+
+
+/*-------------------------------*/
+
+/*--ratting--*/
+
+.sixt-row-shope-section-ratting {
+     height: 20px;
+     width: 150px;
+     display: flex;
+     justify-content: start;
+     position: relative;
+     margin-left: 1px;
+}
+
+.sixt-row-shope-section-ratting i{
+     font-size: 15px;
+     position: relative;
+     margin-top: 6px;
+     color: rgb(226, 152, 14);
+}
+
+.sixt-row-shope-section-ratting span{
+     position: relative;
+     margin-left: 5px;
+     margin-top: 8px;
+     color: #2162a1;
+     font-size: 12px;
+}
+/*----------------------------------------------------*/
+
+/*--price--*/
+
+.sixt-row-shope-section-price{
+     height: 20px;
+     width: 100px;
+     font-size: 19px;
+     position: relative;
+     margin-top: 10px;
+     
+}
+
+/*------------------------------------*/
+
+/*--deleviry date--*/
+
+.sixt-row-shope-section-delivery-date{
+     height: 22px;
+     width: 209px;
+     font-size: 12px;
+     margin-top: 7px;
+     margin-bottom: 1px;
+}
+
+.sixt-row-shope-section-delivery-date span{
+font-weight: 550;
+}
+
+/*-----------------------------------------------------*/
+
+/*--last sectio--*/
+
+.hr-mt-div{
+     height: 10px;
+     width: 1170px;
+     position: relative;
+     margin-left: 50px;
+     border-top: 1px solid rgb(233, 233, 233);
+}
+
+.sign-in-content-last{
+     height: 100px;
+     width: 1150px;
+     text-align: center;
+     position: relative;
+     margin-top: 10px;
+     margin-left: 60px;
+}
+
+.sing-in-opation-last{
+     height: 30px;
+     width: 115px;
+     border-radius: 20px;
+     position: relative;
+     margin-top: 5px;
+     margin-bottom: 6px;
+     margin-left: 513px;
+     background-color: #ffd814;
+     text-align: center;
+}
+
+.new-couster-mess-section {
+     font-size: small;
+}
+
+.new-couster-mess-section a{
+      color: #2162a1;
+}
+/*hover*/
+.new-couster-mess-section a{
+     text-decoration: underline;
+}
+
+/*-----------------------------------------------------------*/
+
+/*footer*/
+
+.footer{
+     height: 855px;
+     width: 1291px;
+     background-color: #232f3e;
+}
+
+.back-to-tap{
+     height: 30px;
+     width: 1289px;
+     color: white;
+     font-size: small;
+     background-color: #2a3849;
+     text-align: center;
+     padding-top: 15px;
+}
+
+.back-to-tap span{
+     position: relative;
+     margin-top: 10px;
+     
+}
+/* hover*/
+
+.footer .back-to-tap:hover{
+     background-color:#384a61 ;
+}
+
+.footer-nav-all{
+     height: 400px;
+     width: 1287px;
+     display: flex;
+     position: relative;
+     margin-top: 19px;
+     justify-content: space-evenly;
+     
+}
+
+.footer-nav-box{
+     height: 390px;
+     width: 230px;
+     color: #ffff;
+     
+}
+.footer-nav-box-content-heder{
+     font-size: larger;
+     font-weight: 549;
+}
+
+.footer-nav-box1-content div{
+     line-height: 36px;
+     font-size: small;
+}
+
+/* hower*/
+
+.footer-nav-box1-content div:hover{
+     text-decoration: underline;
+     color: #cccccc;
+}
+
+.footrt-nav-box-border{
+     height: 5px;
+     width: 1287px;
+     border-top: 1px solid rgb(163, 162, 162);
+}
+
+/* linkle */
+
+.footer-linkle-nav-content{
+     height: 70px;
+     width: 1287px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.footer-linkli-nav{
+     height: 38px;
+     width: 120px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 1px solid rgb(221, 218, 218)
+}
+
+.footer-linkli-nav i{
+     color: #ffff;
+}
+
+.footer-linkli-nav-box1{
+     background-image: url("image/cjzz0x241.png");
+     background-size: contain;
+     width: 79px;
+     border: none;
+     position: relative;
+     margin-top:9px;
+     margin-right:60px;
+}
+
+.footer-linkli-nav-box2{
+     position: relative;
+     margin-right: 9px;
+     border-radius: 8px;
+     height: 33px;
+     width:110px;
+}
+
+.footer-linkli-nav-langvege{
+     color: #ffff;
+     border: none;
+     position: relative;
+     background-color: #222f3d;
+}
+
+
+.footer-linkli-nav-box3{
+     border-radius: 9px;
+     height: 33px;
+     width:110px;
+     color:#ffff;
+}
+
+
+.footer-linkli-nav-flage{
+     background-image: url("image/indian\ flage.jfif");
+     background-size: contain;
+     height: 18px;
+     width: 29px;
+     position: relative;
+    margin-right: 10px;
+     
+}
+
+/* disline*/
+
+.footer-nav-disline-content{
+     height: 320px;
+     width: 1291px;
+     background-color: #131a22;
+     color: #cccccc;
+     font-size: small;
+
+}
+
+.nav-footer-disline{
+     height: 250px;
+     width: 1291px;
+     display: flex;
+     
+}
+
+
+.footer-nav-disline-content-main-box{
+     height: 100px;
+     width: 120px;
+     line-height: 17px;
+     position: relative;
+     margin-left: 70px;
+     margin-top: 30px;
+}
+
+/* copy right */
+
+.footer-copyright-detcel{
+     height: 60px;
+     width: 1291px;
+     line-height: 21px;
+     text-align: center;
+     position: relative;
+}
+.footer-copyright-detcel a{
+     text-align: center;
+     font-size: small;
+     color: #dddd;
+     margin-right: 15px;
+}
+
+.footer-nav-disline-content-main-box div:hover{
+     text-decoration: underline;
+     color: #cccccc;
+}
+
+.footer-copyright-detcel a:hover{
+     text-decoration: underline;
+     color: #cccccc;
+}
